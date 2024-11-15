@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylemain.css" />
+    <title>FreeStyleShoes</title>
+  </head>
+  <body>
+    <header>
+      <h1>FreeStyleShoes</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="shoes1.html">#Nike</a></li>
+        <li><a href="shoes2.html">#Addidas</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="home">
+        <h2>Inicio</h2>
+        <p>
+          En FreestyleShoes, nos especializamos en ofrecer zapatillas de alta
+          calidad importadas de las mejores marcas del mundo. Nuestra misión es
+          brindarte productos exclusivos, cómodos y con estilo para que puedas
+          destacarte en cualquier ocasión. Trabajamos directamente con
+          proveedores internacionales para garantizar que cada par de zapatillas
+          sea auténtico y esté a la vanguardia de las últimas tendencias.
+          ¡Exprésate con libertad y marca la diferencia con FreestyleShoes!..
+        </p>
+      </section>
+
+      <section id="productos">
+        <h2 class="ProductoDisponible">Productos Disponibles</h2>
+        <ul class="producto-lista">
+          <li class="producto-item">
+            <img src="https://woker.vtexassets.com/arquivos/ids/492169-1200-1200?v=638603733635900000&width=1200&height=1200&aspect=true" alt="Nike Shoe" />
+            <h3>Nike Air Max 97 SE</h3>
+            <p>Comodidad y estilo en cada paso. Precio: $99.999</p>
+            <a href="shoes1.html" class="boton-producto">Ver Producto</a>
+          </li>
+          <li class="producto-item">
+            <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/048f8b5bec2f4e6b999a35ab7c8479c8_9366/Zapatillas_Forum_Mid_Blanco_IG3755_01_standard.jpg" alt="Adidas Shoe" />
+            <h3>Adidas Forum Mid</h3>
+            <p>Máxima comodidad para el día a día. Precio: $39.999</p>
+            <a href="shoes2.html" class="boton-producto">Ver Producto</a>
+          </li>
+          <li class="producto-item">
+            <img src="https://www.moov.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw210bd3cc/products/NIBQ6472-079/NIBQ6472-079-2.JPG" alt="Nike Shoe" />
+            <h3>Air Jordan 1 Mid</h3>
+            <p>Diseño moderno y performance. Precio: $89.999</p>
+            <a href="shoes1.html" class="boton-producto">Ver Producto</a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="reseñas">
+        <h2>Reseñas</h2>
+        <div class="grid-container">
+          <div class="review">
+            <h3>Usuario 1</h3>
+            <p>¡Excelente calidad de zapatillas! Recomendado al 100%.</p>
+          </div>
+          <div class="review">
+            <h3>Usuario 2</h3>
+            <p>Me encantó la atención y la rapidez del envío.</p>
+          </div>
+          <div class="review">
+            <h3>Usuario 3</h3>
+            <p>Las zapatillas son exactamente como las fotos. ¡Perfecto!</p>
+          </div>
+          <div class="review">
+            <h3>Usuario 4</h3>
+            <p>Definitivamente volveré a comprar. Muy satisfecho.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="Contacto">
+        <h2>Contacto</h2>
+        <form action="https://formspree.io/f/cesarvalentin2766@gmail.com" method="POST">
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Correo Electrónico:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Mensaje:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; Cesar Lezcano</p>
+    </footer>
+  </body>
+</html>
